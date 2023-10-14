@@ -2,204 +2,262 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="shortcut icon" href="assets/icons/address_book_user.png" type="image/png">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <link rel="stylesheet" type="text/css" href="assets/win95.css">
-
-    <link rel="stylesheet" type="text/css" href="/assets/clippy/clippy.css" media="all">
-
-    <title>FIZIS</title>
+    <title>FIZIS-net</title>
+    <link rel="stylesheet" href="vendor/style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;600&display=swap" rel="stylesheet">
 </head>
-<body class="bg-cloud">
-    <nav class="navbar navbar-expand-lg navbar-light navbar-95 ">
-        <a class="navbar-brand" href="#">
-        <img src="assets/icons/computer_explorer-4.png">FIZIS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/PolyGameDevelop">My team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.donationalerts.com/r/polygamedev">Donation</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Projects
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Abyss</a>
-                        <a class="dropdown-item" href="#">Polygamedev site</a>
-                    </div>
-                </li>
-            </ul>
+<body>
+    <nav class="navbar">
+        <div class="navbar__block">
+            <div class="navbar__block__inner">
+                <span class="navbar__block__inner__label">//nikname</span>
+                <span class="navbar__block__inner__text">FIZIS</span>
+            </div>
+        </div>
+        <div class="navbar__block">
+            <div class="navbar__block__inner">
+                <span class="navbar__block__inner__label">//email</span>
+                <span class="navbar__block__inner__text"><a href="mailto:vl_kosh@vk.com" target="_blank">vl_kosh@vk.com</a></span>
+            </div>
+        </div>
+        <div class="navbar__block">
+            <div class="navbar__block__inner">
+                <span class="navbar__block__inner__label">//github</span>
+                <span class="navbar__block__inner__text"><a href="https://github.com/FIZIS-net" target="_blank">https://github.com/FIZIS-net</a></span>
+            </div>
+        </div>
+        <div class="navbar__block">
+            <div class="navbar__block__inner">
+                <span class="navbar__block__inner__label">//telegram</span>
+                <span class="navbar__block__inner__text"><a href="https://t.me/vl_kosh">@vl_kosh</a></span>
+            </div>
+        </div>
+        <div class="navbar__block">
+            <div class="navbar__block__inner">
+                <span class="navbar__block__inner__label">//location</span>
+                <span class="navbar__block__inner__text"><a href="https://maps.app.goo.gl/airkEvDZZDMJRcj56">Cheboksary, Russia</a></span>
+            </div>
         </div>
     </nav>
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-        <h1 class="display-3">Vladislav Koshelev</h1>
-        <p class="lead">This page is about me</p>
-    </div>
-    <div class="container">
-        <div class="row mb-5">
-            <div class="col-md-6 text-center">
-                <img src="/img/png/wordartFIZIS.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header icon">
-                      <h4 class="my-0 font-weight-normal "><img src="assets/icons/note-0.png"> About me</h4>
+    <div class="main">
+        <div class="main__block">
+            <div class="main__block__inner">
+                <div class="profile-block">
+                    <div class="profile-block__photo">
+                        <img src="vendor/img/me.jpg" alt="">
                     </div>
-                    <div class="card-body">
-                        <div class="row text-center">
-                            <div class="col">
-                                <ul class="list-unstyled mt-3 mb-4">
-                                    <li>My name is Vladislav</li>
-                                    <li>I live in Russia, in the city of Cheboksary.</li>
-                                    <li>I am studying at the Moscow Polytechnic University.</li>
-                                    <li>I program in php and C#.</li>
-                                    <li>Make games on unity.</li>
-                                </ul>
+                    <div class="profile-block__info">
+                        <span class="profile-block__info__name">&lt;Vladislav Koshelev&gt;</span>
+                        <span class="profile-block__info__profession">//fullstack developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__block">
+            <div class="main__block__title">
+                <span class="main__block__title__text">
+                    //about me
+                </span>
+            </div>
+            <div class="main__block__inner">
+                <div class="about-block">
+                    <span class="about-block__text">
+                        Hi, my name is Vlad.
+                        I live in a small city in Russia called Cheboksary.
+                        I graduated from Moscow Polytechnic University and currently work as a fullstack developer at Team F5 LLC.
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="main__block">
+            <div class="main__block__title">
+                <span class="main__block__title__text">
+                    //skills
+                </span>
+            </div>
+            <div class="main__block__inner">
+                <div class="skills-block">
+                    <div class="skills-block__title">
+                        <span class="skills-block__title__text">
+                            Languages and development tools:
+                        </span>
+                    </div>
+                    <div class="skills-block__items-list">
+                        <div class="skills-block__items-list__item">
+                            <div class="skills-block__items-list__item__icon">
+                                <img src="vendor/img/icons/vuejs-plain.svg" alt="">
                             </div>
-                            <div class="col">
-                                <div class="card-body">
-                                    <img src="/img/persons/MyPhoto.jpg" alt="it's me">
+                            <span class="skills-block__items-list__item__title">VueJS</span>
+                        </div>
+                        <div class="skills-block__items-list__item">
+                            <div class="skills-block__items-list__item__icon">
+                                <img src="vendor/img/icons/php-plain.svg" alt="">
+                            </div>
+                            <span class="skills-block__items-list__item__title">PHP</span>
+                        </div>
+                        <div class="skills-block__items-list__item">
+                            <div class="skills-block__items-list__item__icon">
+                                <img src="vendor/img/icons/javascript-plain.svg" alt="">
+                            </div>
+                            <span class="skills-block__items-list__item__title">JS</span>
+                        </div>
+                        <div class="skills-block__items-list__item">
+                            <div class="skills-block__items-list__item__icon">
+                                <img src="vendor/img/icons/laravel-plain.svg" alt="">
+                            </div>
+                            <span class="skills-block__items-list__item__title">Laravel</span>
+                        </div>
+                        <div class="skills-block__items-list__item">
+                            <div class="skills-block__items-list__item__icon">
+                                <img src="vendor/img/icons/mysql-plain.svg" alt="">
+                            </div>
+                            <span class="skills-block__items-list__item__title">MySQL</span>
+                        </div>
+                        <div class="skills-block__items-list__item">
+                            <div class="skills-block__items-list__item__icon">
+                                <img src="vendor/img/icons/mongodb-plain.svg" alt="">
+                            </div>
+                            <span class="skills-block__items-list__item__title">MongoDB</span>
+                        </div>
+                        <div class="skills-block__items-list__item">
+                            <div class="skills-block__items-list__item__icon">
+                                <img src="vendor/img/icons/jquery-plain.svg" alt="">
+                            </div>
+                            <span class="skills-block__items-list__item__title">JQuery</span>
+                        </div>
+                        <div class="skills-block__items-list__item">
+                            <div class="skills-block__items-list__item__icon">
+                                <img src="vendor/img/icons/css3-plain.svg" alt="">
+                            </div>
+                            <span class="skills-block__items-list__item__title">CSS</span>
+                        </div>
+                        <div class="skills-block__items-list__item">
+                            <div class="skills-block__items-list__item__icon">
+                                <img src="vendor/img/icons/html5-plain.svg" alt="">
+                            </div>
+                            <span class="skills-block__items-list__item__title">HTML</span>
+                        </div>
+                        <div class="skills-block__items-list__item">
+                            <div class="skills-block__items-list__item__icon">
+                                <img src="vendor/img/icons/git-plain.svg" alt="">
+                            </div>
+                            <span class="skills-block__items-list__item__title">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__block">
+            <div class="main__block__title">
+                <span class="main__block__title__text">
+                    //work experience
+                </span>
+            </div>
+            <div class="main__block__inner">
+                <div class="workplaces-block">
+                    <div class="workplaces-block__item">
+                        <span class="workplaces-block__item__period">2021 - present</span>
+                        <div class="workplaces-block__item__company">
+                            <span class="workplaces-block__item__company__name">Team F5 Ltd.</span>
+                            <span class="workplaces-block__item__company__position">//fullstack developer</span>
+                        </div>
+                        <ul class="workplaces-block__item__duties-list">
+                            <li class="workplaces-block__item__duties-list__item">Development of client and public widgets for amoCRM (Kommo).</li>
+                            <li class="workplaces-block__item__duties-list__item">Support and refactoring of ready widgets.</li>
+                            <li class="workplaces-block__item__duties-list__item">Integration of amoCRM (Kommo) with other services and websites!</li>
+                        </ul>
+                        <div class="workplaces-block__item__stack">
+                            <span class="workplaces-block__item__stack__item">/PHP</span>
+                            <span class="workplaces-block__item__stack__item">/jS</span>
+                            <span class="workplaces-block__item__stack__item">/SQL</span>
+                            <span class="workplaces-block__item__stack__item">/HTML</span>
+                            <span class="workplaces-block__item__stack__item">/JQuery</span>
+                            <span class="workplaces-block__item__stack__item">/CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__block">
+            <div class="main__block__title">
+                <span class="main__block__title__text">
+                    //projects
+                </span>
+            </div>
+            <div class="main__block__inner">
+                <div class="projects-block">
+                    <div class="projects-block__item">
+                        <div class="projects-block__item__title">
+                            <span class="projects-block__item__title__text">simple CRM system</span>
+                        </div>
+                        <div class="projects-block__item__description">
+                            <span class="projects-block__item__description__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, facere.</span>
+                        </div>
+                        <div class="projects-block__item__links">
+                            <div class="projects-block__item__links__item">
+                                <div class="projects-block__item__links__item__icon">
+                                    <img src="vendor/img/icons/code.svg" alt="">
                                 </div>
+                                <a href="https://github.com/">source</a>
                             </div>
-                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                                <button type="button" onclick="window.location.href = 'mailto:pshift4180@gmail.com';" class="btn btn-secondary"><img src="assets/icons/envelope_closed-1.png" class="icon-16">Email me</button>
-                                <button type="button" onclick="window.location.href = 'https://vk.com/vl_kosh';" class="btn btn-secondary"><img src="assets/icons/connected_world-0.png" class="icon-16">My VK</button>
-                                <button type="button" onclick="window.location.href = 'https://github.com/FIZIS-net';" class="btn btn-secondary"><img src="assets/icons/connected_world-0.png" class="icon-16">My GitHub</button>
-                                <button type="button" onclick="window.location.href = 'https://t.me/vl_kosh';" class="btn btn-secondary"><img src="assets/icons/fax_machine-1.png" class="icon-16">Telegram</button>
+                            <div class="projects-block__item__links__item">
+                                <div class="projects-block__item__links__item__icon">
+                                    <img src="vendor/img/icons/external-link.svg" alt="">
+                                </div>
+                                <a href="https://github.com">site</a>
                             </div>
                         </div>
                     </div>
-                </div>          
-            </div> 
-        </div>
-        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-            <h4 class="display-4">My projects</h4>
-            <p class="lead">Here you can find out about the projects I am currently working on.</p>
-        </div>
-        <div class="container" id="page-content">
-            <div class="card-deck mb-3 text-center">
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">Abyss</h4>
-                    </div>
-                    <div class="card-body">
-                        <img src="/img/png/abyss.png" alt="">
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>A game in the roguelike genre.</li>
-                            <li>Developed since 2020.</li>
-                            <li>Release in 2022.</li>
-                        </ul>
-                        <br>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 13%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            13%
+                    <div class="projects-block__item">
+                        <div class="projects-block__item__title">
+                            <span class="projects-block__item__title__text">Lorem ipsum dolor sit.</span>
                         </div>
-                        <br>
-                        <button type="button" onclick="window.location.href = 'https://vk.com/polygamedev';" class="btn btn-lg btn-block btn-outline-primary">Learn more</button>
-                        <p>© Polygamedev</p>
-                    </div>
-                </div>
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">PolyGameDev site</h4>
-                    </div>
-                    <div class="card-body">
-                        <img src="/img/png/PolyGameDevLogo.png" alt="">
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>Site for PolyGameDev.</li>
-                            <li>Website about the team and</li>
-                            <li>projects of the Polygamedev.</li>
-                        </ul>
-                        <br>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            45%
+                        <div class="projects-block__item__description">
+                            <span class="projects-block__item__description__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, facere.</span>
                         </div>
-                        <br>
-                        <button type="button"  onclick="window.location.href = 'https://polygamedevelop.github.io/';" class="btn btn-lg btn-block btn-primary">Learn more</button>
-                        <p>© Polygamedev</p>
-                    </div>
-                </div>
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">future project</h4>
-                    </div>
-                    <div class="card-body">
-                        <br>
-                        <img src="/assets/icons/clock-1.png" alt="">
-                        <br>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>There is nothing here yet</li>
-                        </ul>
-                        <br>
-                        <br>
-                        <br>
-                        
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            0%
+                        <div class="projects-block__item__links">
+                            <div class="projects-block__item__links__item">
+                                <div class="projects-block__item__links__item__icon">
+                                    <img src="vendor/img/icons/code.svg" alt="">
+                                </div>
+                                <a href="https://github.com/">source</a>
+                            </div>
+                            <div class="projects-block__item__links__item">
+                                <div class="projects-block__item__links__item__icon">
+                                    <img src="vendor/img/icons/external-link.svg" alt="">
+                                </div>
+                                <a href="https://github.com">site</a>
+                            </div>
                         </div>
-                        <br>
-                        <button type="button" class="btn btn-lg btn-block btn-primary" disabled>Learn more</button>
-                        <p>© Polygamedev</p>
                     </div>
-                </div>
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">future project</h4>
-                    </div>
-                    <div class="card-body">
-                        <br>
-                        <img src="/assets/icons/clock-1.png" alt="">
-                        <br>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>There is nothing here yet</li>
-                        </ul>
-                        <br>
-                        <br>
-                        <br>
-                        
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            0%
+                    <div class="projects-block__item">
+                        <div class="projects-block__item__title">
+                            <span class="projects-block__item__title__text">Lorem, ipsum dolor.</span>
                         </div>
-                        <br>
-                        <button type="button" class="btn btn-lg btn-block btn-primary" disabled>Learn more</button>
-                        <p>© Polygamedev</p>
+                        <div class="projects-block__item__description">
+                            <span class="projects-block__item__description__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, facere.</span>
+                        </div>
+                        <div class="projects-block__item__links">
+                            <div class="projects-block__item__links__item">
+                                <div class="projects-block__item__links__item__icon">
+                                    <img src="vendor/img/icons/code.svg" alt="">
+                                </div>
+                                <a href="https://github.com/">source</a>
+                            </div>
+                            <div class="projects-block__item__links__item">
+                                <div class="projects-block__item__links__item__icon">
+                                    <img src="vendor/img/icons/external-link.svg" alt="">
+                                </div>
+                                <a href="https://github.com">site</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Footer -->
-    <footer class="taskbar">
-        <div class="row" style="margin-right: 0px;">
-            <div class="col-8">
-                <a href="https://github.com/FIZIS-net" class="btn start-button"><img src="assets/icons/directory_folder_options-5.png" class="icon-16"> GitHub</a>
-            </div>
-            <div class="col-4 time">Website powered by win95.css framework</div>
-        </div>
-    </footer>
-
-
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
